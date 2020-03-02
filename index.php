@@ -30,7 +30,7 @@
     <input type="hidden" name="id" value="<?php echo $id; ?>">
     <div class="task">
         <label>Task</label>
-        <input type="text" name="task" class="task-input" value = "<?php echo $task; ?>" placeholder="Add your task here">
+        <input type="text" required name="task" class="task-input" value = "<?php echo $task; ?>" placeholder="Add your task here">
         <?php if ($update == true): ?>
         <button type="submit" class="update-btn" name="update">Update</button>
         <?php else: ?>
